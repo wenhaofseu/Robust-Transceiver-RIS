@@ -1,5 +1,9 @@
 clc;clear;close all;
 run Setup.m
+run GenerateRISchannel.m
+run GenerateRISChannel_Mmax128.m
+run GenerateChannelHat.m
+run GenerateChannelHat_Mmax128.m
 run AO_I.m
 run AO_J.m
 run MSEverusM.m
